@@ -1,0 +1,11 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev  --ignore-watch node_modules src/index.ts",
+    "start:prod": "node dist/index.js",
+    "build": "tsc"
+  }
+}
